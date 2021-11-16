@@ -15,13 +15,12 @@ html {
  */
 
 body {
-  color: #545149;
-  background-color: #f4f1ec;
-  font-size: 24px;
+  background-color: rgb(127, 225, 255);
+  background-image: url("../images/background.png");
   font-family: 'Source Sans Pro', sans-serif;
   align-content: center;
   align-items: center;
-  display: center;
+  
   justify-content: center;
   flex-direction: column;
 }

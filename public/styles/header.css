@@ -1,15 +1,16 @@
 .avatar {
   align-items: center;
-  background-color: aquamarine;
+  background-color: rgb(127, 225, 255);
   background-image: url("../images/background.png");
-  height: 400px;
   width: 100%;
   z-index: -1;
   
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  
-  
+  font-family: 'Permanent Marker', cursive;
+  font-size: 24px;
+  color: #151515;
 }
+
 
