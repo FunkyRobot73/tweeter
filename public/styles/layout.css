@@ -19,25 +19,14 @@ body {
   background-color: #f4f1ec;
   font-size: 24px;
   font-family: 'Source Sans Pro', sans-serif;
+  align-content: center;
+  align-items: center;
+  display: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
- main {
-   display: flex;
-   justify-content: center;
-   width: 90%;
-   
-   
-  }
-  .container {
-    flex-direction: column;
-    background-color: #f4f1ec;
-    align-content: center;
-
-  
- }
- .new-tweet {
-   width: center
- }
+ 

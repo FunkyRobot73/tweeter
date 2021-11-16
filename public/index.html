@@ -18,6 +18,8 @@
     <!-- App CSS -->
     <link rel="stylesheet" href="/styles/layout.css" type="text/css" />
     <link rel="stylesheet" href="/styles/nav.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/header.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
 
     <!-- External JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -27,18 +29,49 @@
   </head>
 
   <body>
-    <!-- Top nav bar (fixed) -->
-    <nav>
-      <span class="nav-title">tweeter</span>
-      <span class="nav-right">
-        <span><strong>Write</strong> a new tweet</span>
-        <div class="arrow"><i class="fas fa-angle-double-down"></i>
-      </div>
-      </span>
-    </nav>
+    
 
-    <!-- Page-specific (main) content here -->
-    <main class="container"></main>
-    How do you like my body???
-  </body>
-</html>
+      <!-- Top nav bar (fixed) -->
+      <nav class="navigate">
+        <span class="nav-title">tweeter</span>
+        <span class="nav-right">
+          <span><strong>Write</strong> a new tweet</span>
+          <div class="arrow"><i class="fas fa-angle-double-down"></i>
+          </div>
+        </span>
+      </nav>
+      
+      <header class="avatar">
+        <div>&nbsp;</div>
+        <br>
+        <div>
+          <img src="/images/profile-bat1.png"> 
+        </div>
+        <br>
+        <div>
+          <h2>Adele Sousa</h2>
+        </div>
+      </header>
+      
+      
+      
+      <!-- Page-specific (main) content here -->
+      <main class="container">
+        <section class="new-tweet">
+          <h2>Compose Tweet</h2>
+          <form class="tweet-form">
+            <label for="tweet-text">What are you humming about?</label>
+            <textarea name="text" id="tweet-text"></textarea>
+            <div class="button">
+              <button type="submit">Tweet</button>
+              <output name="counter" class="counter" for="tweet-text">140</output>
+            </div>
+          </form>
+        </section>
+        
+      </main>
+      
+    
+    </body>
+    </html>
+    

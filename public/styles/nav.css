@@ -1,16 +1,21 @@
-nav {
-  height: 120px;
-  width: 100%;
-  font-family: 'Bungee', cursive;
-  color: #FFFFFF;
-  background-color: #4056A1;
-  font-size: 36px;
-  padding-left: 1.5em;
-  padding-right: 1.5em;
+.navigate {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  opacity: 50%;
+  background-color: #4056A1;
+  color: #FFFFFF;
+  height: 120px;
+  width: 100%;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+
+  font-family: 'Bungee', cursive;
+  font-size: 36px;
+  opacity: 100%;
 }
 
 
@@ -23,7 +28,8 @@ nav {
 
 .arrow {
   color: red;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 
