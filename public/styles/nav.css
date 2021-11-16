@@ -1,0 +1,27 @@
+nav {
+  height: 120px;
+  width: 100%;
+  font-family: 'Bungee', cursive;
+  color: #FFFFFF;
+  background-color: #4056A1;
+  font-size: 36px;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.nav-right {
+  font-size: 16px;
+  padding-top: 1.5em;
+  font-family: "Source Sans Pro", sans-serif;
+
+}
+
+.arrow {
+  color: red;
+  text-align: center;
+}
+
