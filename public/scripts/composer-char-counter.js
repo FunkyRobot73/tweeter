@@ -3,8 +3,7 @@ $(document).ready(function () {
   $("#tweet-text").keydown(function () {
     console.log(this.value.length);
     //console.log($(this).parentsUntil(".new-tweet").find(".counter").html());
-    let counterTweet = 1; 
-    counterTweet += (this.value.length)
+    let counterTweet = ++(this.value.length);
     console.log(counterTweet);
     document.getElementsByClassName("counter")[0].value = counterTweet;
     const counterElement = document.getElementById("counter")

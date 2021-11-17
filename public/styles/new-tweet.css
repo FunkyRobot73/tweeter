@@ -20,21 +20,29 @@
   
 }
 
+
 .tweet-form {
   display: flex;
   flex-direction: column;
-  margin-top: 1em;
-  min-height: .5em;
   min-width: 100%;
-  max-width: 90%;
+  font-weight: bolder;
+  padding-bottom: 1em;
+    
+}
+
+#tweet-text {
+  
+  min-height: 3em;
+  min-width: 100%;
+  max-width: 100%;
   font-weight: bolder;
   color: #151515;
-  padding-bottom: 1em;
-  
-  
+  padding-bottom: .5em;
+  border: none;
+  border-bottom: 3px solid #232323;
   background: none;
-  
 }
+
 
 .button-field {
   font-family: 'Bungee', cursive;
