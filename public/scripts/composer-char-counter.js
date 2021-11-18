@@ -1,6 +1,6 @@
 $(document).ready(function () {
   // --- our code goes here ---
-  $("#tweet-text").keydown(function () {
+  $("#tweet-text").keypress(function () {
     //console.log(this.value.length);
     //console.log($(this).parentsUntil(".new-tweet").find(".counter").html());
     let counterTweet = ++(this.value.length);
@@ -9,10 +9,7 @@ $(document).ready(function () {
     const counterElement = document.getElementById("counter")
 
 
-    $('#button-tweet').submit(function(event) {
-      event.preventDefault();
-      console.log(event);
-    });
+    
     
     
     
