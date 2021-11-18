@@ -127,4 +127,10 @@ $(document).ready(function() {
 // $("#counter")  // Used for targetting IDs in the HTML document
 // $(".new-tweet")  // Used to targer Classes in the HTML document
 
+$("i").hover(function () {  // Hover over Icon!
+  $(this).css("color", "yellow");
+    }, function(){
+      $(this).css("color", "black");
+  });
+
 }) 
