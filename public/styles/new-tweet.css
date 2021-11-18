@@ -1,3 +1,21 @@
+#tweets-container {
+  display: flex;
+  
+}
+
+#tweet-text {
+  
+  min-height: 3em;
+  min-width: 100%;
+  max-width: 100%;
+  font-weight: bolder;
+  color: #151515;
+  padding-bottom: .5em;
+  border: none;
+  border-bottom: 3px solid #232323;
+  background: none;
+}
+
 .container {
   
   display: flex;
@@ -6,8 +24,7 @@
   font-size: 24px;
   
 }
-.section {
-}
+
 
 .new-tweet {
   background-color: rgb(127, 225, 255);
@@ -30,18 +47,6 @@
     
 }
 
-#tweet-text {
-  
-  min-height: 3em;
-  min-width: 100%;
-  max-width: 100%;
-  font-weight: bolder;
-  color: #151515;
-  padding-bottom: .5em;
-  border: none;
-  border-bottom: 3px solid #232323;
-  background: none;
-}
 
 
 .button-field {

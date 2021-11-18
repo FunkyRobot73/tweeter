@@ -7,6 +7,14 @@ $(document).ready(function () {
     //console.log(counterTweet);
     document.getElementsByClassName("counter")[0].value = counterTweet;
     const counterElement = document.getElementById("counter")
+
+
+    $('#button-tweet').submit(function(event) {
+      event.preventDefault();
+      console.log(event);
+    });
+    
+    
     
     if (counterTweet >= 140) {
       //counterElement.color = red;
@@ -16,6 +24,6 @@ $(document).ready(function () {
     }
   });
 
+
+  
 });
-
-

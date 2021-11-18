@@ -12,7 +12,7 @@ $(document).ready(function () {
     "user": {
       "name": "Newton",
       "avatars": "https://i.imgur.com/73hZDYK.png",
-        "handle": "@SirIsaac"
+        "handle": "@SirIsaacc"
       },
     "content": {
         "text": "If I have seen further it is by standing on the shoulders of giants"
@@ -22,9 +22,10 @@ $(document).ready(function () {
 
 
   const createTweetElement = function(tweetData) {
-    const $tweet = $(`<article class="tweet">
+    const $tweet = $(`<section id="tweets-container">
+              <article class="tweet">
               <header class="header">
-                <div class="small-icon"><img src="/images/profile-cat1.png">
+                <div class="small-icon"><img src="${tweetData.user.avatars}">
                   <p>${tweetData.user.name}</p>
                 </div>
                   <div class="displayName">${tweetData.user.handle}</div>
@@ -41,7 +42,8 @@ $(document).ready(function () {
                 <i class="fas fa-bolt"></i>
                 </div>
               </footer>
-            </article>`);
+            </article>
+            </section>`);
             return $tweet
   };
 
@@ -64,7 +66,7 @@ const data = [
       "handle": "@SirIsaac"
     },
     "content": {
-      "text": "If I have seen further it is by standing on the shoulders of giants"
+      "text": "If I have seen further it is by standing on the shoulders of giant"
     },
     "created_at": 1461116232227
   },
