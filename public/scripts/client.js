@@ -49,6 +49,7 @@ const createTweetElement = function(tweetData) {
           </section>`);
           return $tweet
 };
+// .text prevents (Cross-Site Scripting)
 
 const renderTweets = function(tweets) {
   //const tweetsContainer = $('#tweets-container').html("");
