@@ -18,12 +18,7 @@ body {
   background-color: rgb(127, 225, 255);
   background-image: url("../images/background.png");
   font-family: 'Source Sans Pro', sans-serif;
-  align-content: center;
-  align-items: center;
   
-  justify-content: center;
-  flex-direction: column;
-}
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions

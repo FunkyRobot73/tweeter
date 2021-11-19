@@ -3,8 +3,8 @@
  */
 
 .tweet {
-  flex-direction: row;
-  
+  align-content: space-around;
+  width: 100%
 }
 
 .header {
@@ -16,8 +16,9 @@
 .small-icon {
   display: flex;
   flex-direction: row;
+  align-content: center;
   font-family: 'Permanent Marker', cursive;
-  
+  width: 90%;
 }
 
 
@@ -39,7 +40,7 @@
 
 #tweets-container {
   background-color: rgb(127, 225, 255);
-  border: 3px solid #232323;
+  border: 3px solid #4056A1;
   border-radius: 20px;
   padding-top: .5em;
   padding-left: 0.5em;
@@ -49,6 +50,23 @@
   margin: 1em 0 1em 0;
   width: 80%;
   display: flex;
+  align-items: center;
   flex-direction: column;
   font-family: 'Bungee', cursive;
+}
+
+
+
+.button {
+  background: none#4056A1;
+
+}
+
+.button:hover {
+  background: blue;
+
+}
+
+.fas:hover {
+  color: yellow;
 }
