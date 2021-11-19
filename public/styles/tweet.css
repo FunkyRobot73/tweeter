@@ -4,7 +4,12 @@
 
 .tweet {
   align-content: space-around;
-  width: 100%
+  width: 100%;
+  background-color: whitesmoke;
+  border: 2px solid #4056A1;
+  border-radius: 20px;
+  padding: 1em;
+  margin: .25em;
 }
 
 .header {
@@ -19,6 +24,9 @@
   align-content: center;
   font-family: 'Permanent Marker', cursive;
   width: 90%;
+}
+.small-name {
+
 }
 
 
@@ -68,5 +76,11 @@
 }
 
 .fas:hover {
-  color: yellow;
+  color: red;
+}
+
+.tweet:hover {
+  box-shadow: 5px 5px 5px black;
+  border: 2px solid black;
+  
 }

@@ -1,11 +1,11 @@
 const endPoint = "/tweets";
 
 const createTweetElement = function(tweetData) {   // Creates tweet inside container Template
-  const $tweet = $(`<section id="tweets-container">
+  const $tweet = $(`
             <article class="tweet">
             <header class="header">
               <div class="small-icon"><img src="${tweetData.user.avatars}">
-                ${$("<p>").text(tweetData.user.name).html()}
+                ${$("<p class='small-name'>").text(tweetData.user.name).html()}
               </div>
                 <div class="displayName">${tweetData.user.handle}</div>
             </header>
@@ -22,7 +22,7 @@ const createTweetElement = function(tweetData) {   // Creates tweet inside conta
               </div>
             </footer>
           </article>
-          </section>`);
+          `);
   return $tweet;
 };
 

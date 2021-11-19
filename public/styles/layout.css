@@ -18,9 +18,12 @@ body {
   background-color: rgb(127, 225, 255);
   background-image: url("../images/background.png");
   font-family: 'Source Sans Pro', sans-serif;
-  
+}
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
  
+@media (min-width:600) and (max-width:1200px) {
+
+}
