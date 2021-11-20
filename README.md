@@ -6,10 +6,10 @@ This repository is my code for the Tweeter Project started in Week #4 of the Lig
 
 ## Screen Shots
 
-!["Screenshot of Main Page](https://github.com/FunkyRobot73/tweeter/blob/master/docs/tweeter_main.png)
-!["Screenshot of Main Page] (https://github.com/FunkyRobot73/tweeter/blob/master/docs/tweeter_tablet.png)
+!["Screenshot of Main Page"](https://github.com/FunkyRobot73/tweeter/blob/master/docs/tweeter_main.png)
 
-- More available on request.
+!["Screenshot of Tablet & Phone"](https://github.com/FunkyRobot73/tweeter/blob/master/docs/tweeter_tablet.png)
+
 
 ## Dependencies
 
