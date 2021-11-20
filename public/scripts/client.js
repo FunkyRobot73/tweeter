@@ -5,7 +5,9 @@ const createTweetElement = function(tweetData) {   // Creates tweet inside conta
             <article class="tweet">
             <header class="header">
               <div class="small-icon"><img src="${tweetData.user.avatars}">
-                ${$("<p class='small-name'>").text(tweetData.user.name).html()}
+              <p class="pee">
+                ${$("<p id='small-name'>").text(tweetData.user.name).html()}
+                </p>
               </div>
                 <div class="displayName">${tweetData.user.handle}</div>
             </header>

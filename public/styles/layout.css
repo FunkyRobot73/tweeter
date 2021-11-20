@@ -16,7 +16,7 @@ html {
 
 body {
   background-color: rgb(127, 225, 255);
-  background-image: url("../images/background.png");
+  
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -24,6 +24,35 @@ body {
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
  
-@media (min-width:600) and (max-width:1200px) {
 
+/* Tablet Styles */
+
+
+/* @media (min-width: 1024px) {
+ 
+} */
+
+
+
+@media  (min-width: 1024px) {
+  .screen-container {
+    display:flex;
+    flex-direction: row;
+    margin-top: 120px;
+
+  }
+  .avatar {
+    width: 40% !important; 
+  }
+  .container {
+    width: 60% !important;
+  }
+  
+}
+
+@media (max-width: 480px) {
+  .pee, .displayName, .middle, footer div {
+    
+    font-size: 0.7em !important;
+  }
 }

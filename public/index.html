@@ -4,7 +4,7 @@
     <!-- Meta Information -->
     <title>Tweeter - Home Page</title>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
-    
+
     <!-- External CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" type="text/css" />
     
@@ -52,60 +52,58 @@
         </span>
       </nav>
       
-      <header class="avatar">
-        
-        <br>
-        <div>
-          <img src="/images/profile-bat1.png"> 
-        </div>
-        <br>
-        <div>
-          <h2>Bruce Wayne</h2>
-        </div>
-      </header>
-      
-
-      
-      
-      <!-- Page-specific (main) content here **********-->
-      <main class="container">
-        <section class="new-tweet">
+      <div class="screen-container">
+        <header class="avatar">
           
-          <form id="button-tweet" action="/tweets" method="POST">
-            <textarea name="text" id="tweet-text" placeholder="What are you humming about??"></textarea>
-            <div class="button-field">
-              <button class="button" type="submit">Tweet</button>
-              <output name="counter" class="counter" id="counter" for="tweet-text">140</output>
-            </div>
-          </form>
-        </section>
+          <br>
+          <div>
+            <img src="/images/profile-bat1.png"> 
+          </div>
+          <br>
+          <div>
+            <h2>Bruce Wayne</h2>
+          </div>
+        </header>
         
-        <section id="tweets-container">
-
-          <!-- <article class="article">
-
-            <header class="header">
-              <div class="small-icon"><img src="/images/profile-cat1.png">
-                <p>Selina Kyle</p>
+        <!-- Page-specific (main) content here **********-->
+        <main class="container">
+          <section class="new-tweet">
+            
+            <form id="button-tweet" action="/tweets" method="POST">
+              <textarea name="text" id="tweet-text" placeholder="What are you humming about??"></textarea>
+              <div class="button-field">
+                <button class="button" type="submit">Tweet</button>
+                <output name="counter" class="counter" id="counter" for="tweet-text">140</output>
               </div>
-                <div class="displayName">@Catwoman</div>
-            </header>
-            <p class="middle">
-              I've got 9 Lives. !
-            </p>
-            <footer class="footer">
-              <div>10 Days Ago</div>
-              <div>
-              <i class="fas fa-mask"></i>
-              <i class="fas fa-retweet"></i>
-              <i class="fas fa-bolt"></i>
-              </div>
-            </footer>
-          </article> -->
+            </form>
+          </section>
+          
+          <section id="tweets-container">
 
-        </section>
-      </main>
-      
+            <!-- <article class="article">
+
+              <header class="header">
+                <div class="small-icon"><img src="/images/profile-cat1.png">
+                  <p>Selina Kyle</p>
+                </div>
+                  <div class="displayName">@Catwoman</div>
+              </header>
+              <p class="middle">
+                I've got 9 Lives. !
+              </p>
+              <footer class="footer">
+                <div>10 Days Ago</div>
+                <div>
+                <i class="fas fa-mask"></i>
+                <i class="fas fa-retweet"></i>
+                <i class="fas fa-bolt"></i>
+                </div>
+              </footer>
+            </article> -->
+
+          </section>
+        </main>
+    </div>
     
     </body>
 
