@@ -33,13 +33,12 @@ body {
 } */
 
 
-
 @media  (min-width: 1024px) {
   .screen-container {
     display:flex;
     flex-direction: row;
     margin-top: 120px;
-
+    
   }
   .avatar {
     width: 40% !important; 
@@ -50,9 +49,18 @@ body {
   
 }
 
+
 @media (max-width: 480px) {
   .pee, .displayName, .middle, footer div {
-    
-    font-size: 0.7em !important;
+     font-size: 0.7em !important;
+  }
+}
+
+@media  (max-width: 1024px) {
+  .navigate {
+    display: none;
+  }
+  .avatar {
+    padding-top: 10px !important;
   }
 }

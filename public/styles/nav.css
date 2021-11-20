@@ -1,11 +1,7 @@
-@media  (max-width: 1024px) {
-  .navigate {
-    display: none;
-  }
-}
+
 
 .navigate {
-  display: flex;
+  
   justify-content: space-between;
   align-items: center;
   background-color: #4056A1;
